@@ -28,6 +28,7 @@ Foi utilizada a metodologia ágil **Kanban** para a gestão das tarefas, aprovei
 
 ![Diagrama de Casos de Uso](docs/seu-diagrama-de-casos-de-uso.png)
 
+
 **Diagrama de Classes**
 
 ![Diagrama de Classes](docs/seu-diagrama-de-classes.png)
@@ -72,18 +73,3 @@ Durante o desenvolvimento, o cliente solicitou uma nova funcionalidade para adic
 
 Projeto desenvolvido para a disciplina de Engenharia de Software.
 
-```mermaid
-graph TD
-    A[Usuário] --> B(Criar Tarefa)
-    A --> C(Visualizar Tarefas)
-    A --> D(Excluir Tarefa)
-
-    style A fill:#fff,stroke:#333,stroke-width:2px,actor
-
-```mermaid
-classDiagram
-    class Tarefa {
-        +int id
-        +string titulo
-        +string descricao
-    }
