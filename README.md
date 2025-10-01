@@ -26,6 +26,7 @@ Foi utilizada a metodologia ágil **Kanban** para a gestão das tarefas, aprovei
 
 **Diagrama de Casos de Uso**
 
+```mermaid
 graph TD
     A[Usuário] --> B(Criar Tarefa)
     A --> C(Visualizar Tarefas)
@@ -36,6 +37,7 @@ graph TD
 
 **Diagrama de Classes**
 
+```mermaid
 classDiagram
     class Tarefa {
         +int id
