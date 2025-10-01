@@ -33,7 +33,7 @@ graph TD
     A --> D(Excluir Tarefa)
 
     style A fill:#fff,stroke:#333,stroke-width:2px,actor
-
+```
 
 **Diagrama de Classes**
 
@@ -44,7 +44,7 @@ classDiagram
         +string titulo
         +string descricao
     }
-
+```
 
 ## 🛠️ Instruções para Execução do Sistema
 
