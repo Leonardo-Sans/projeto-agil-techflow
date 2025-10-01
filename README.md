@@ -26,14 +26,23 @@ Foi utilizada a metodologia ágil **Kanban** para a gestão das tarefas, aprovei
 
 **Diagrama de Casos de Uso**
 
-![Diagrama de Casos de Uso](docs/seu-diagrama-de-casos-de-uso.png)
+graph TD
+    A[Usuário] --> B(Criar Tarefa)
+    A --> C(Visualizar Tarefas)
+    A --> D(Excluir Tarefa)
+
+    style A fill:#fff,stroke:#333,stroke-width:2px,actor
 
 
 **Diagrama de Classes**
 
-![Diagrama de Classes](docs/seu-diagrama-de-classes.png)
+classDiagram
+    class Tarefa {
+        +int id
+        +string titulo
+        +string descricao
+    }
 
-*(Lembre-se de substituir os nomes dos arquivos de imagem pelos nomes que você salvou na pasta `docs`)*
 
 ## 🛠️ Instruções para Execução do Sistema
 
